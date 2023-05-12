@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+#root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.App {
+  height: auto;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.tv-pn-asidebar {
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #1E3A8A;
+}
+.tv-pn-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #F1F5F9;
+  position: relative;   
+}
+.tv-pn-header{
+  height:37px;
+  width:100%;
+  padding: 0px 15px;
+  border-bottom:1px solid #CBD5E1;
+  line-height: 37px;
+}
+.tv-pn-Page{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.tv-pn-Page-tabholder{
+  height:40px;
+  width:100%;
+  line-height: 25px;
+  padding: 10px 15px;
+}
+.tv-pn-sidebar-logo{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tv-pn-sidebar-menuItem{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+  color:#fff;
+  font-size: 12px;
+  font-weight: 600;
+  color:#3B82F6;
+}
+.mt-auto{
+  margin-top: auto;
+}
+.container {
+  display: grid;
+}
