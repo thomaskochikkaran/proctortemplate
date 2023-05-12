@@ -6,7 +6,7 @@ import Tile from "./Tile";
 // }
 
 const Live: React.FC = () => {
-  const tiledata = [3,2,3,2,3,2,3,2,4,3,2,3,2,3,2,3,
+  const tiledata = [3,2,
   ];
   const [inr, setInr] = React.useState<number>(0);
   const tilelength = tiledata.length;
@@ -35,13 +35,6 @@ const Live: React.FC = () => {
   const myValue = "calc("+inr+"% - 10px)";
   return (
     <>
-      <div
-        style={{
-          width: "100px",
-          backgroundColor: "blue",
-          height: "100vh",
-        }}
-      ></div>
       <div
         className="parent"
         style={{

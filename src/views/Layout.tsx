@@ -1,13 +1,13 @@
 import React from "react";
-import "./App.css";
-import Logo from './assets/logo.png';
-import Candidates from './assets/candidates.png'
-import Bel from './assets/bel.png'
-import Settings from './assets/settings.png'
-import Logout from './assets/logout.png';
-import Events from './assets/events.png'
+import "../App.css";
+import Logo from '../assets/sidebar/logo.png';
+import Candidates from '../assets/sidebar/candidates.png'
+import Bel from '../assets/sidebar/bel.png'
+import Settings from '../assets/sidebar/settings.png'
+import Logout from '../assets/sidebar/logout.png';
+import Events from '../assets/sidebar/events.png'
 
-
+import Live from "./components/liveScreen"
 
 function Layout() {
   return (
@@ -28,7 +28,7 @@ function Layout() {
         <div className="tv-pn-header">Header</div>
         <div className="tv-pn-Page">
           <div className="tv-pn-Page-tabholder">Tab Holder</div>
-          <div className="tv-pn-Page">Content Holder</div>
+          <div className="tv-pn-Page"><Live/></div>
         </div>
       </div>
     </div>
